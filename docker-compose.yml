@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: elamram
+    restart: unless-stopped
+    ports:
+      - "8092:8092"
